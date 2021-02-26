@@ -1,0 +1,147 @@
+.header {
+    position: fixed;
+    margin: 0px auto 0px;
+    margin-top: -20px;
+    width: 100%;
+    background-color: white;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: blue;
+    font-size: 17px;
+  }
+  
+  li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px 12px;
+    padding-top: 11px;
+    text-decoration: none;
+    margin: 0px;
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: black;
+  }
+.logo {
+    float: left;
+}
+.yt-gh {
+    float: right;
+    font-size: 17px;
+}
+.yt-gh a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 11px 12px;
+    text-decoration: none;
+}
+@media screen and (max-width: 565px) {
+    .logo {
+        float: none;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 9px 5.5px;
+        text-decoration: none;
+      }
+}
+.plugtxt {
+    
+}
+@media screen and (max-width: 665px) {
+    .plugtxt {
+        display:none;
+    }
+}
+.fab {
+    margin: 3px;
+}
+.banner {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    
+}
+.banner .inner {
+    vertical-align: middle;
+    margin-top: 115px;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    text-align: left;
+}
+.inner .butn {
+    background-color: blue;
+    color: white;
+    font-size: 23px;
+    padding: 7px;
+    margin: 3px;
+    text-decoration: none;
+}
+.grad {
+background-image: linear-gradient(135deg, rgb(44, 44, 230) , rgb(108, 197, 226));
+}
+.grey {
+    background-color: grey;
+}
+.item {
+    float: left;
+    background-color: white;
+    color: black;
+    width: 300px;
+    margin: 10px;
+    height: 300px;
+}
+@media screen and (max-width: 1000px) {
+    .item {
+        width: 90%;
+        height: 150px
+    }
+    .grey {
+        height: 700px;
+    }
+}
+.hide {
+    background-color: none;
+    text-decoration: none;
+}
+.footer {
+    background-image: linear-gradient(to top, black, rgb(68, 68, 68));
+    background-image: -moz-linear-gradient(to top, black, rgb(68, 68, 68));
+    background-image: -ms-linear-gradient(to top, black, rgb(68, 68, 68));
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+H1 {
+    display: none;
+}
