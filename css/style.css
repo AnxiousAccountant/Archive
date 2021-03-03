@@ -5,6 +5,7 @@
     width: 100%;
     background-color: blue;
 }
+navbar-iframe {display: none !important;}
 body {
     padding: 0px;
     margin: 0px;
