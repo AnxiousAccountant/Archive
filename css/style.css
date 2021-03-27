@@ -733,10 +733,10 @@ body {
 
 .header-header {
     width: 100%;
-    height: 90px;
+    height: 150px;
     position: relative;
     overflow: hidden;
-    padding: 30px 0
+    padding: 0px 0
 }
 
 .header-header .container {
@@ -761,8 +761,9 @@ body {
 
 .header-logo img {
     max-width: 100%;
-    max-height: 100px;
-    position: relative margin:auto
+    max-height: 120px;
+    position: relative; margin:auto;
+    vertical-align: top
 }
 
 .header-logo h1 {
